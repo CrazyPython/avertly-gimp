@@ -77,6 +77,7 @@ style "tdsog-default-style"
   color["clr8"] = "#16161D"
   color["clr9"] = "#2D2D33"
   color["clr10"] = "#FFFFFF"
+  color["blue"] = "#3F51B5"
 
   fg[NORMAL] = @clr1
   fg[PRELIGHT] = @clr10
@@ -84,9 +85,9 @@ style "tdsog-default-style"
   fg[SELECTED] = @clr2
   fg[INSENSITIVE] = @clr3
 
-  bg[NORMAL] = @clr4
-  bg[PRELIGHT] = @clr4
-  bg[ACTIVE] = @clr4
+  bg[NORMAL] = @blue
+  bg[PRELIGHT] = @blue
+  bg[ACTIVE] = @blue
   bg[SELECTED] = @clr9
   bg[INSENSITIVE] = @clr5
 
@@ -436,7 +437,7 @@ style "tdsog-tooltips-style" = "tdsog-default-style"
   ythickness = 4
 
   bg[NORMAL] = "#383838"
-  bg[SELECTED] = "#828282"
+  bg[SELECTED] = "#737377"
   fg[NORMAL] = "#CBCBCB"
 }
 
@@ -449,8 +450,8 @@ style "tdsog-treeview" = "tdsog-default-style"
   xthickness = 2
   ythickness = 0
 
-  GtkTreeView::odd_row_color = "#828282"
-  GtkTreeView::even_row_color = "#828282"
+  GtkTreeView::odd_row_color = "#737377"
+  GtkTreeView::even_row_color = "#737377"
 
   #
   # set custom text color here
@@ -520,8 +521,8 @@ style "tdsog-list-header-style"
   #Comment out the ythickness setting below for thicker column headers.
   #ythickness = 0
 
-  GtkTreeView::odd_row_color = "#828282"
-  GtkTreeView::even_row_color = "#828282"
+  GtkTreeView::odd_row_color = "#737377"
+  GtkTreeView::even_row_color = "#737377"
 
   #
   # set custom header text color here
@@ -760,7 +761,7 @@ class "GtkNotebook" style "tdsog-notebook-style"
 style "tdsog-menu" = "tdsog-default-style"
 {
   # bg[NORMAL] affects menu detachable item
-  bg[NORMAL] = "#484848"
+  bg[NORMAL] = "#16161D"
 
   fg[NORMAL] = "#CBCBCB"
   fg[PRELIGHT] = "#FFFFFF"
@@ -1830,7 +1831,7 @@ class "GtkRange" style "tdsog-range-style"
 
 style "tdsog-spin-scale-style"
 {
-  bg[NORMAL] = "#828282"
+  bg[NORMAL] = "#737377"
 
   engine "pixmap"
     {
@@ -2196,15 +2197,15 @@ style "kde_hack_1"
   GtkComboBoxEntry::appears-as-list = 0
   GtkComboBoxText::appears-as-list = 0
 
-  color["clr1"] = "#EEEEEE"
-  color["clr2"] = "#DDDDDD"
-  color["clr3"] = "#C1C1C1"
-  color["clr4"] = "#222222"
-  color["clr5"] = "#111111"
-  color["clr6"] = "#828282"
-  color["clr7"] = "#3b3b3b"
-  color["clr8"] = "#222222"
-  color["clr9"] = "#4D4D4D"
+  color["clr1"] = "#E7E7E8"
+  color["clr2"] = "#D0D0D2"
+  color["clr3"] = "#B9B9BB"
+  color["clr4"] = "#16161D"
+  color["clr5"] = "#111116"
+  color["clr6"] = "#737377"
+  color["clr7"] = "#1D1D24"
+  color["clr8"] = "#16161D"
+  color["clr9"] = "#2D2D33"
   color["clr10"] = "#FFFFFF"
 
   fg[NORMAL] = @clr1
@@ -2232,7 +2233,7 @@ widget_class "*" style "kde_hack_1"
 
 style "kde_hack_2"
 {
-  bg[NORMAL] = "#222" #Sets canvas BG
+  bg[NORMAL] = "#16161D" #Sets canvas BG
 }
 
 widget "*GimpDisplayShell.*" style "kde_hack_2"
@@ -2241,7 +2242,7 @@ widget "*GimpDisplayShell.*" style "kde_hack_2"
 
 style "kde_hack_3"
 {
-  bg[NORMAL] = "#222"
+  bg[NORMAL] = "#16161D"
 }
 
 class "GtkFrame" style "kde_hack_3"
