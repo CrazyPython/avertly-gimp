@@ -88,7 +88,7 @@ style "tdsog-default-style"
   bg[NORMAL] = @clr4
   bg[PRELIGHT] = @clr4
   bg[ACTIVE] = @clr4
-  bg[SELECTED] = @clr9
+  bg[SELECTED] = @blue
   bg[INSENSITIVE] = @clr5
 
   base[NORMAL] = @clr6
