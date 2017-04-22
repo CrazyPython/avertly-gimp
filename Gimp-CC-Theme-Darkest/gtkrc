@@ -54,7 +54,7 @@ gtk-menu-images = 1
 gtk-button-images = 0
 gtk-auto-mnemonics = 1
 #gtk-primary-button-warps-slider = 1
-gtk-toolbar-style = GTK_BAR_ICONS
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
 gtk-application-prefer-dark-theme = true
 
 #gtk-font-name = "Sans 11"
