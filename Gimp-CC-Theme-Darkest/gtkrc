@@ -54,7 +54,7 @@ gtk-menu-images = 1
 gtk-button-images = 0
 gtk-auto-mnemonics = 1
 #gtk-primary-button-warps-slider = 1
-gtk-toolbar-style = GTK_TOOLBAR_ICONS
+gtk-toolbar-style = GTK_BAR_ICONS
 gtk-application-prefer-dark-theme = true
 
 #gtk-font-name = "Sans 11"
@@ -67,15 +67,15 @@ style "tdsog-default-style"
 {
 #  font_name = "Sans 11"
 
-  color["clr1"] = "#EEEEEE"
-  color["clr2"] = "#DDDDDD"
-  color["clr3"] = "#C1C1C1"
-  color["clr4"] = "#222222"
-  color["clr5"] = "#111111"
-  color["clr6"] = "#828282"
-  color["clr7"] = "#3b3b3b"
-  color["clr8"] = "#222222"
-  color["clr9"] = "#4D4D4D"
+  color["clr1"] = "#E7E7E8"
+  color["clr2"] = "#D0D0D2"
+  color["clr3"] = "#B9B9BB"
+  color["clr4"] = "#16161D"
+  color["clr5"] = "#111116"
+  color["clr6"] = "#737377"
+  color["clr7"] = "#1D1D24"
+  color["clr8"] = "#16161D"
+  color["clr9"] = "#2D2D33"
   color["clr10"] = "#FFFFFF"
 
   fg[NORMAL] = @clr1
@@ -184,7 +184,7 @@ style "tdsog-default-style"
   GtkHScale::shadow_type = GTK_SHADOW_NONE
 
   GtkWidget::tooltip-radius = 2
-  GtkWidget::tooltip-alpha = 235
+  GtkWidget::tooltip-alpha = 255
   GtkWidget::new-tooltip-style = 1
 
   GtkWindow::resize-grip-height = 0
